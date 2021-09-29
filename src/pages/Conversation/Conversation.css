@@ -1,0 +1,111 @@
+.conversation {
+  width: 200px;
+  height: 550px;
+}
+
+.chat {
+  width: 700px;
+  height: 550px;
+  margin-left: 10px;
+}
+
+.conversationTitle {
+  font-size: 17px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+
+.conversationList {
+  cursor: pointer;
+}
+.conversationList.active,
+.conversationList:hover {
+  background-color: silver;
+}
+.messageList {
+  width: 690px;
+  height: 450px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: rgb(238, 231, 231);
+}
+
+.box {
+  width: 690px;
+  min-height: 85px;
+}
+
+.messageBox {
+  display: flex;
+  margin-top: 15px;
+}
+
+.profileImage {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.message {
+  max-width: 395px;
+  min-height: 5px;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.messageText {
+  display: inline-block;
+  max-width: 395px;
+  color: white;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.request {
+  background-color: rgb(73, 73, 240);
+}
+
+.response {
+  background-color: rgb(19, 180, 19);
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.userInput {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.inputText {
+  width: 630px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#standard-basic {
+  width: 790px;
+}
+
+.buttonSend {
+  width: 50px;
+  height: 35px;
+  background-color: white;
+}

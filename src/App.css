@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+}
+.context {
+  flex: 5;
+  margin: 5px 5px 5px 10px;
+  padding: 5px 5px 5px 10px;
+}
